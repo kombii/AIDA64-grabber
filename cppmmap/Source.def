@@ -1,0 +1,5 @@
+LIBERARY cppmmap
+
+EXPORTS
+getData
+freebuffer
