@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cppmmap", "cppmmap.vcxproj", "{7E1C017B-8E1D-4680-B0F7-70FCA711D678}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AIDA64-grabber-dll", "cppmmap.vcxproj", "{7E1C017B-8E1D-4680-B0F7-70FCA711D678}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dlltestproj", "..\dlltestproj\dlltestproj.vcxproj", "{3EFB278C-ACD6-4D76-B36E-76B1666409EF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dll-test-cpp", "..\dll-test-cpp\dll-test-cpp.vcxproj", "{0A5F185D-F906-4736-9F98-888B90903672}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E1C017B-8E1D-4680-B0F7-70FCA711D678} = {7E1C017B-8E1D-4680-B0F7-70FCA711D678}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,14 +26,14 @@ Global
 		{7E1C017B-8E1D-4680-B0F7-70FCA711D678}.Release|x64.Build.0 = Release|x64
 		{7E1C017B-8E1D-4680-B0F7-70FCA711D678}.Release|x86.ActiveCfg = Release|Win32
 		{7E1C017B-8E1D-4680-B0F7-70FCA711D678}.Release|x86.Build.0 = Release|Win32
-		{3EFB278C-ACD6-4D76-B36E-76B1666409EF}.Debug|x64.ActiveCfg = Debug|x64
-		{3EFB278C-ACD6-4D76-B36E-76B1666409EF}.Debug|x64.Build.0 = Debug|x64
-		{3EFB278C-ACD6-4D76-B36E-76B1666409EF}.Debug|x86.ActiveCfg = Debug|Win32
-		{3EFB278C-ACD6-4D76-B36E-76B1666409EF}.Debug|x86.Build.0 = Debug|Win32
-		{3EFB278C-ACD6-4D76-B36E-76B1666409EF}.Release|x64.ActiveCfg = Release|x64
-		{3EFB278C-ACD6-4D76-B36E-76B1666409EF}.Release|x64.Build.0 = Release|x64
-		{3EFB278C-ACD6-4D76-B36E-76B1666409EF}.Release|x86.ActiveCfg = Release|Win32
-		{3EFB278C-ACD6-4D76-B36E-76B1666409EF}.Release|x86.Build.0 = Release|Win32
+		{0A5F185D-F906-4736-9F98-888B90903672}.Debug|x64.ActiveCfg = Debug|x64
+		{0A5F185D-F906-4736-9F98-888B90903672}.Debug|x64.Build.0 = Debug|x64
+		{0A5F185D-F906-4736-9F98-888B90903672}.Debug|x86.ActiveCfg = Debug|Win32
+		{0A5F185D-F906-4736-9F98-888B90903672}.Debug|x86.Build.0 = Debug|Win32
+		{0A5F185D-F906-4736-9F98-888B90903672}.Release|x64.ActiveCfg = Release|x64
+		{0A5F185D-F906-4736-9F98-888B90903672}.Release|x64.Build.0 = Release|x64
+		{0A5F185D-F906-4736-9F98-888B90903672}.Release|x86.ActiveCfg = Release|Win32
+		{0A5F185D-F906-4736-9F98-888B90903672}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

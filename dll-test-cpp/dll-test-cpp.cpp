@@ -1,6 +1,6 @@
 ﻿#include <stdio.h>
 #include <stdlib.h>
-#pragma comment(lib, "..\\cppmmap\\x64\\Debug\\cppmmap.lib")
+#pragma comment(lib, "..\\AIDA64-grabber-dll\\x64\\Debug\\AIDA64-grabber-dll.lib")
 extern char* getData();
 extern void freebuffer(char* data);
 int main()
